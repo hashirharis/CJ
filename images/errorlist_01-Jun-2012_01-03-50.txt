@@ -1,0 +1,10 @@
+emailid,userType,Organization,Group,FromDate,ToDate,Status,Comments
+01-Jun-2012
+josephnc8@gmail.com,User,Career Judge,CJGroup,1/6/2012 12:00:00 AM,30/06/2012,1,Invalid date
+-------------------------------
+joseph_nc@rediffmail.com,User,Career Judge,CJGroup,1/6/2012 12:00:00 AM,30/06/2012,1,Invalid date
+-------------------------------
+ncjoseph@careerjudge.com,User,Career Judge,CJGroup,1/6/2012 12:00:00 AM,30/06/2012,1,Invalid date
+-------------------------------
+Indu_Gandhi@swissre.com,User,Career Judge,CJGroup,1/6/2012 12:00:00 AM,30/06/2012,1,Invalid date
+-------------------------------

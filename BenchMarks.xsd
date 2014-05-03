@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BenchMarks" targetNamespace="http://tempuri.org/BenchMarks.xsd" xmlns:mstns="http://tempuri.org/BenchMarks.xsd" xmlns="http://tempuri.org/BenchMarks.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="talentscoutConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="talentscoutConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.talentscoutConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViewBenchMarksTableAdapter" GeneratorDataComponentClassName="ViewBenchMarksTableAdapter" Name="ViewBenchMarks" UserDataComponentName="ViewBenchMarksTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="talentscoutConnectionString (Web.config)" DbObjectName="FJA2009.ViewBenchMarks" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     TestID, SectionID, BenchMark, Marks
+FROM         ViewBenchMarks</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TestID" DataSetColumn="TestID" />
+              <Mapping SourceColumn="SectionID" DataSetColumn="SectionID" />
+              <Mapping SourceColumn="BenchMark" DataSetColumn="BenchMark" />
+              <Mapping SourceColumn="Marks" DataSetColumn="Marks" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BenchMarks" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="BenchMarks" msprop:Generator_DataSetName="BenchMarks">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ViewBenchMarks" msprop:Generator_UserTableName="ViewBenchMarks" msprop:Generator_RowDeletedName="ViewBenchMarksRowDeleted" msprop:Generator_TableClassName="ViewBenchMarksDataTable" msprop:Generator_RowChangedName="ViewBenchMarksRowChanged" msprop:Generator_RowClassName="ViewBenchMarksRow" msprop:Generator_RowChangingName="ViewBenchMarksRowChanging" msprop:Generator_RowEvArgName="ViewBenchMarksRowChangeEvent" msprop:Generator_RowEvHandlerName="ViewBenchMarksRowChangeEventHandler" msprop:Generator_TablePropName="ViewBenchMarks" msprop:Generator_TableVarName="tableViewBenchMarks" msprop:Generator_RowDeletingName="ViewBenchMarksRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TestID" msprop:Generator_UserColumnName="TestID" msprop:Generator_ColumnPropNameInRow="TestID" msprop:Generator_ColumnVarNameInTable="columnTestID" msprop:Generator_ColumnPropNameInTable="TestIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SectionID" msprop:Generator_UserColumnName="SectionID" msprop:Generator_ColumnPropNameInRow="SectionID" msprop:Generator_ColumnVarNameInTable="columnSectionID" msprop:Generator_ColumnPropNameInTable="SectionIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BenchMark" msprop:Generator_UserColumnName="BenchMark" msprop:Generator_ColumnPropNameInRow="BenchMark" msprop:Generator_ColumnVarNameInTable="columnBenchMark" msprop:Generator_ColumnPropNameInTable="BenchMarkColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Marks" msprop:Generator_UserColumnName="Marks" msprop:Generator_ColumnPropNameInRow="Marks" msprop:Generator_ColumnVarNameInTable="columnMarks" msprop:Generator_ColumnPropNameInTable="MarksColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

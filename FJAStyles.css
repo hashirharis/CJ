@@ -1,0 +1,172 @@
+﻿html {   
+  overflow: -moz-scrollbars-vertical;  
+  
+ /*overflow-y: scroll;  font-family:Arial,sans-serif Times New Roman,Verdana,Helvetica, Verdana;*/
+ /*font-size:12px;*/
+
+font-family:Arial, Helvetica, sans-serif
+
+}
+
+body 
+{
+	font-family:Arial,Impact;/*,Arial,sans-serif Times New Roman,Verdana,Helvetica, Verdana	;*/
+	margin : 0;
+line-height : 1.6em;
+padding-right:4px;
+padding-left:3px; 
+padding-top:0; padding-bottom:0;
+font-size:10pt;
+/*font-family:tahoma;
+    
+    color:#ffffff;*/
+}
+.style1
+    {        
+        text-decoration: underline;
+        color: #0000CC;
+    }
+/*.introduction{color: #FFFFFF; background-color: #81889E;}*/
+.subheader{font-weight: bold; background-color: #7E8C9A; color: #FFFFFF;}
+/*.subtaskmessage{text-decoration: blink;border-style:ridge;border-width:3px; background-color: #EED0FB; color: #031C7A; border-color: #5A7CA4;font-family: Arial Narrow; font-weight: normal; font-style: normal; font-variant: normal;line-height:12.5pt;}
+*/
+.subtaskmessage{text-decoration: blink; color: #031C7A; font-family: Arial Narrow; font-weight: normal; font-style: normal; font-variant: normal;line-height:12.5pt;
+                text-align:left;padding-left:5px;background-image: url(images/msgaction.jpg);background-repeat: no-repeat;width:650px;height:100px;}
+
+/*.subtaskmessage1{text-decoration: blink;border-style:ridge;border-width:3px; background-color: #F5CBEF; color: #031C7A; border-color: #5A7CA4;font-family: Arial Narrow; font-weight: normal; font-style: normal; font-variant: normal;line-height:12.5pt;}
+*/
+.subtaskmessage1{text-decoration: blink; color: #031C7A; font-family: Arial Narrow; font-weight: normal; font-style: normal; font-variant: normal;line-height:12.5pt;
+                 text-align:left;padding-left:8px;padding-right:15px; background-image: url(images/msgObject.jpg);background-repeat: no-repeat;width:650px;height:125px;overflow:hidden;}
+
+.subtaskmessage2{text-decoration: blink; color: #031C7A; font-family: Arial Narrow; font-weight: normal; font-style: normal; font-variant: normal;line-height:12.5pt;
+                 text-align:left;padding-left:5px;background-image: url(images/msgreqA.jpg);background-repeat: no-repeat;width:650px;height:125px;}
+.subtaskmessage3{text-decoration: blink; color: #031C7A; font-family: Arial Narrow; font-weight: normal; font-style: normal; font-variant: normal;line-height:12.5pt;
+                 text-align:left;padding-left:5px;background-image: url(images/msgreqB.jpg);background-repeat: no-repeat;width:653px;height:125px;}
+.subtaskmessage4{text-decoration: blink; color: #031C7A; font-family: Arial Narrow; font-weight: normal; font-style: normal; font-variant: normal;line-height:12.5pt;
+                 text-align:left;padding-left:5px;background-image: url(images/msgreqC.jpg);background-repeat: no-repeat;width:653px;height:150px;}
+.subtaskmessage5{text-decoration: blink; color: #031C7A; font-family: Arial Narrow; font-weight: normal; font-style: normal; font-variant: normal;line-height:12pt;
+                 text-align:left;padding-left:5px;background-image: url(images/msgpurpose.jpg);background-repeat: no-repeat;width:653px;height:125px;}
+
+
+.taskmessage{ background-color: #B1B1B3; color: #031C7A; border-color: #031C7A;font-family: Arial Narrow; font-style: normal; font-variant: normal;font-size:16px;background-image:url('images/taskentrymsg_bg1.jpg');}
+.taskmessage1{background-color: #EED0FB; color: #031C7A; border-color: #031C7A;font-family: Arial Narrow; font-style: normal; font-variant: normal;font-size:16px;background-image:url('images/taskentrymsg_bg2.jpg');}
+.taskmessage2{background-color: #F5CBEF; color: #031C7A; border-color: #031C7A;font-family: Arial Narrow; font-style: normal; font-variant: normal;font-size:16px;background-image:url('images/taskentrymsg_bg3.jpg');}
+
+.tasksavemessage{border-style: outset;background-color: #B1B1B3; color: Red; border-color: #031C7A;font-family: Arial Narrow; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: blink}
+
+.textbox_task{width:200px;}
+
+.label{text-align:right;}
+.introduction{border-color: #000000;border-width:1px;}
+.header1 {color: #2E2E2E; font-size: 24px; font-family:Impact;}
+.header2 {color: #FF0000; font-size: 26px; font-family:Impact;}
+.header3 {color: #0017F0; font-size: 14px; font-family:Impact;padding-top:15px;}
+.header4 {color:#2E2E2E; font-size: 24px; font-family:Agency FB;font-weight:normal;}
+
+        .logo1 {
+    font-family:arial;
+    font-size:20px;
+    color:#000000;/*#FFFFFF;*/
+    font-weight: bold
+        }
+        
+        .mainimage {
+  max-width: 500px;
+  max-height: 400px;
+  width: expression(this.width > 500 ? "500px" : true);
+  height: expression(this.height > 400 ? "400px" : true);
+}
+.mainimageEdit {
+  max-width: 350px;
+  max-height: 200px;
+  width: expression(this.width > 350 ? "350px" : true);
+  height: expression(this.height > 200 ? "200px" : true);
+}
+.button{font-family:Arial Narrow;font-size:10pt;color:Gray;}
+.titlemain{font-family: Arial ;color:#EC8E3D;font-size:30px;text-align:center;font-weight:bold;padding:10px;height:40px; }
+.titlesub{font-family:Agency FB;color:#EC8E3D;font-size:18px;padding-left:10px;font-weight:bold;height:23px;}
+.titlesub1{font-family:Impact;color:Blue;font-size:14px;padding-left:10px;}
+.titlesub2{font-family:Arial Narrow;color:Red;font-size:14px;font-weight:bold;padding-left:10px;}
+/*.titlesub3{font-family:Arial Narrow;color:Black;font-size:16px;}*/
+.titlesub3{font-family:Arial Narrow;color:#83270B;font-size:14px;font-weight:bold;padding-left:10px;}
+
+.blinkytext {
+     font-family: Arial Narrow, Impact;
+     /*font-size: 1.2em;*/
+     text-decoration: blink;
+     font-style: normal;
+ }
+ 
+ .staticheader{font-family:Agency FB;color:#E08B40;font-size:22px;text-align:center;font-weight:bold;padding-left:10px;}
+ .staticheader1{font-family:Agency FB;color:#E08B40;font-size:18px;text-align:center;font-weight:bold;padding-left:10px;height:25px;}
+  .staticheader1Ser{font-family:Agency FB;color:#E08B40;font-size:18px;text-align:center;font-weight:bold;}
+ .staticheader2{font-family:Arial Arial Narrow;color:#CC6600;font-size:14px;text-align:center;font-weight:bold;padding-left:10px;}
+ .staticheader3{font-family:Impact;color:Blue;font-size:14px;text-align:center;font-weight:normal;padding-left:10px;}
+ 
+ .staticheader_hp{font-family:Agency FB;color:#E08B40;font-size:24px;text-align:left;font-weight:bold;padding-left:10px; height:23px;}
+ .staticheader1_hp{font-family:Agency FB;color:#E08B40;font-size:19px;text-align:left;font-weight:bold;padding-left:10px; height:23px;}
+ .staticheader_hp_mov{font-family:Agency FB;color:#E08B40;font-size:24px;text-align:left;font-weight:bold; height:24px;}
+ .staticheader1_hp_mov{font-family:Agency FB;color:#E08B40;font-size:19px;text-align:left;font-weight:bold; height:23px;}
+ 
+ 
+ .staticheader2_hp{font-family:Arial Narrow;color:#CC6600;font-size:14px;text-align:left;font-weight:bold; font-style:normal;padding-left:10px;}
+  .staticheader2_hp_ser{font-family:Arial Narrow;color:#CC6600;font-size:17px;text-align:left;font-weight:bold; font-style:normal;padding-left:10px;}
+
+ .staticheader3_hp{font-family:Arial Narrow;color:Blue;font-size:14px;text-align:left;font-weight:bold;padding-left:12px;}
+ .taskratelefthead{color: #990000;}
+ .taskratebg_1{background-color:#EBE5CF;}
+  .taskratebg_2{background-color:#FBF3E6;}
+  .learnmore{font-family:Arial Narrow;font-size:9pt;color:Blue;}
+  .homeverticalimg{padding-left:20px;font-style: italic;}
+  .bodywidth{width: 100%;}
+  .topbanner{width: 90%;}
+  .bottomlink{font-size: 11px;text-align:center;}
+  .allrights{color: #000000; font-size:small;text-align:center;}
+  .menustyle{width: 800px;}
+  .menubgcolor{background-color: #077DFB;height: 9px; text-align: center;}
+  .reportgridItem_main{text-align:left ;vertical-align:middle;}
+  .reportgridItem_sub1{text-align:left ;vertical-align:middle;width:90px;}
+  .reportgridItem_sub2{text-align:center ;vertical-align:middle;width:60px;}
+  .reportgridItem_sub3{text-align:center ;vertical-align:middle;width:100px;}
+  
+  .homemiddlelayer{width: 100%; line-height: 18px; height: 690px;}
+  .homeleftlayer{width: 100%; line-height: 18px; height: 690px;}
+  .homerightlayer{width: 100%; line-height: 18px; height: 690px;}
+  .homephotoabel{font-size:12px;}
+  .textpadding{padding-left:20px;}
+  .controlledtaskmsgstyle{z-index: 1; position: absolute; left: 220px; bottom:120px;text-align:left;}
+  .freeflowIntro{font-family:Arial Narrow;color:#404040;font-size:16px;text-align:left;font-weight:bold;}
+  .freeflowIntrosub{font-family:Arial Narrow;color:#404040;font-size:16px;text-align:left;font-weight:bold;padding-left:25px;}
+    .freeflowIntrosptext{font-family:Arial Narrow;color:Red;font-size:16px;text-align:left;font-weight:bold;}
+    .numberpading{padding-left:18px;}
+    .welcomepage{font-family:Arial Narrow;font-size:16px;text-align:left;font-weight:bold;font-style:italic;color:White;}
+    .titlewelcome{font-family:Impact;font-weight:normal;color:#D00000;font-size:26px;text-align:center;}
+    .titleCodeI{font-family:Impact;font-weight:normal;color:#FF6600;font-size:26px;text-align:center;height:35px;}
+    .titleObjective{font-family:Impact;font-weight:normal;color:#FF6600;font-size:26px;text-align:center;height:35px;}
+    
+    .controlledtaskintolines{font-family:Arial Narrow;font-size:16px;text-align:left;padding-left:25px;}
+    .controlledtaskintolnimg1{font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:#0D0D0D;}
+    .controlledtaskInfomsgstyle{z-index: 1; position: absolute; left: 220px; bottom:120px; text-align:left;}
+    .taskInfomsgstyle{z-index: 1; position: absolute; left: 300px; bottom:65px; text-align:left;}
+    .helpheaderstyle{font-size:11.0pt;line-height:115%;font-family:Arial;color:#E36C0A;font-weight:bold;}
+    .helpparastyle{padding-left:20px; margin-top:0in;margin-right:0in;margin-bottom:10.0pt;margin-left:.5in;line-height:115%;font-size:11.0pt;font-family:Calibri;}
+    .helpbullet{text-align:right; font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:#404040}
+    .helpbulletcell{width:20px;text-align:right;vertical-align:top;}
+    
+    .memmerytextalign{line-height:20px;}
+    
+    .questiondisplaywindowtopspace{padding-top: 25px;}
+    .questionpopup{z-index:1; position:absolute; width: 300px; height: 250px; top: 50%; left: 30%}
+    
+    .missedquestionidpopup{border: 5px groove #FF0066; width: 100%; background-color: #B3B38C;}
+    .timerpossition{position: absolute; width: 110px; height: 100px;  right: 25px; top:15%;  }
+    .timerbg{background-image: url(images/timer_bg.jpg);text-align:center;background-repeat:no-repeat;height:40px;vertical-align:middle;font-size:18pt;color:White;font-weight:bold;}
+    .imagectrloptiondisplay{text-align: left; vertical-align: middle} 
+    .topbannerleftimage{text-align:center;vertical-align:middle;width: 25%}
+     .topbannermiddleimage{text-align:center;vertical-align:middle;width: 50%}
+      .topbannerrightimage{text-align:center;vertical-align:middle;width: 25%}
+    /*z-index: 1;
+	
+    .timerpossition{position: absolute; width: 110px; height: 100px;top:15%; bottom: 85%; right: 25px; top:expression(window.scrollTop + "px"); });
+*/
+

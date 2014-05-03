@@ -1,0 +1,568 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage5.master.cs" Inherits="MasterPage5" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>CENTER FOR CAREER PROFILING AND DEVELOPMENT</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    
+    
+    <%--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">--%>
+<%--<link rel="stylesheet" type="text/css" href="style.css"/>--%>
+<link rel="stylesheet" type="text/css" href="FJAStyles.css" />
+<%--<script type="text/JavaScript" src="FJAJScript.js"></script>--%>
+    
+    
+    
+    <style type="text/css">
+        .style2
+        {
+            height: 9px;
+        }
+    </style>
+    <script language="javascript" type="text/javascript">
+function check_user()
+{
+var str = document.getElementById('ctl00_PageContent_starttime1').value;
+alert(str);
+}
+
+</script>
+    <link href="style.css" rel="stylesheet" />
+<%--<script language="javascript" type="text/javascript">
+function clearData(){
+window.clipboardData.setData('text','') 
+}
+function ccb(){
+if(clipboardData){
+clipboardData.clearData();
+}
+}
+setInterval("ccb();", 1000);
+</script>--%>
+
+<%--<script type="text/javascript">
+//define universal reference to "staticcontent"
+var crossobj=document.all? 
+
+document.all.staticcontent : 
+
+document.getElementById("staticcontent")
+
+//define reference to the body object in IE
+var iebody=(document.compatMode && 
+
+document.compatMode != "BackCompat")? 
+
+document.documentElement : document.body
+
+function positionit(){
+//define universal dsoc left point
+var dsocleft=document.all? iebody.scrollLeft : 
+
+pageXOffset
+//define universal dsoc top point
+var dsoctop=document.all? iebody.scrollTop : 
+
+pageYOffset
+
+//if the user is using IE 4+ or Firefox/ NS6+
+if (document.all||document.getElementById){
+crossobj.style.left="25px"//parseInt(dsocleft)+5+"px"
+crossobj.style.top=dsoctop+100+"px"
+}
+}
+setInterval("positionit()",100)
+</script>--%>
+<%--<script type="text/javascript">
+var iebody=(document.compatMode && 
+document.compatMode != "BackCompat")? 
+document.documentElement : document.body
+function positionit(){
+//define universal dsoc left point
+var dsocleft=document.all? iebody.scrollLeft : 
+pageXOffset
+//define universal dsoc top point
+var dsoctop=document.all? iebody.scrollTop : 
+pageYOffset
+
+//if the user is using IE 4+ or Firefox/ NS6+document.all||
+if (document.getElementById){
+document.getElementById("staticcontent").style.right=5+"%"//parseInt(dsocleft)+5+"px"
+//if(dsoctop>20)
+//document.getElementById("staticcontent").style.top=dsoctop+10+"px"
+//else 
+document.getElementById("staticcontent").style.top=dsoctop+70+"px"
+}
+}setInterval("positionit()",1000)
+       </script>--%>
+       
+    <link href="styles_menu.css" rel="stylesheet" />
+       <style type="text/css">
+#fixme { position: absolute; right: 25px; top: 70px; }
+<%--#fixmetoo { position: absolute; right: 0px; bottom: 0px; }--%>
+div > div#fixme { position: fixed; }
+<%--div > div#fixmetoo { position: fixed; }--%>
+pre.fixit { overflow:auto;border-left:1px dashed #000;border-right:1px dashed #000;padding-right:25px; }
+		</style><!--[if gte IE 5.5]><![if lt IE 7]>
+		<style type="text/css">
+div#fixme {
+right: expression( ( 0 + ( ignoreMe2 = document.documentElement.scrollRight ? document.documentElement.scrollRight : document.body.scrollRight ) ) + 'px' );
+top: expression( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 70+ 'px' );
+}
+div#fixmetoo {
+right: auto; bottom: auto;
+left: expression( ( 0 - fixmetoo.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+top: expression( ( 0 - fixmetoo.offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+}
+		</style>
+		<![endif]><![endif]-->
+       
+       
+</head><%--onload="ImageShow();"onload="countdown();"onload="positionit()"onload="ccb();"--%>
+<body   style="padding-top:1px;"  leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onselectstart="return false;" >
+    <form id="counter" name="counter" runat="server"  >
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server" 
+            AsyncPostBackTimeout="1000" />       
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <table align="center" height="143" border="0" cellpadding="0" 
+                cellspacing="0" class="bodywidth">
+                <tr>
+                    <td bgcolor="White" >
+                        <div align="center">
+		
+	        <%--<table class="topbanner" width="90%">
+                <tr>
+                    <td class="topbannerleftimage">
+                        <asp:Image ID="imgLogoLeft" runat="server" ImageUrl="images/logo_fja.jpg" />
+                                        </td>
+                    <td class="topbannermiddleimage">
+                        <asp:Image ID="imgLogoMiddle" runat="server" />
+                                </td>
+                    <td class="topbannerrightimage" width="300">
+                        <asp:Image ID="imgLogo" runat="server" />
+                                        </td>
+                </tr>
+                </table>--%>
+                            <div id="main_box_top">
+                            </div>
+                            <div id="main_box_header">
+                                <div class="main_box_header_inner">
+                                    <div class="header_inner_head">
+                                        <div class="header_inner_head_inn">
+                                            <img src="images/head.jpg" width="590" height="176" alt="" /></div>
+                                        <div class="header_inner_head_inn_1">
+                                            <div class="header_inner_head_inn_2">
+                                                <div class="header_inner_head_inn_2_in">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:LinkButton ID="LinkBulbtnAboutus1" runat="server" Font-Underline="False" 
+                                                    ForeColor="Black" OnClick="LinkBulbtnAboutus1_Click"  >About Us</asp:LinkButton>
+                                                    &nbsp;&nbsp;&nbsp;!&nbsp;&nbsp;&nbsp;
+                                                    <asp:LinkButton ID="LinkBulbtnContactus1" runat="server" Font-Underline="False" 
+                                                    ForeColor="Black" OnClick="LinkBulbtnContactus1_Click" >Contact Us</asp:LinkButton>
+                                                    &nbsp;&nbsp;&nbsp; ! &nbsp;&nbsp;&nbsp;
+                                                    <asp:LinkButton ID="LinkBulbtnApplynow" runat="server" Font-Underline="False" 
+                                                    ForeColor="Black"  >Apply Now</asp:LinkButton>
+                                                </div>
+                                            </div>
+                                            <div class="header_inner_head_inn_3">
+                                                <table width="200" border="0">
+                                                    <tr>
+                                                        <td style="color:#8cb6d6;">User ID</td>
+                                                        <td style="color:#8cb6d6;">Password</td>
+                                                        <td>&nbsp;</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <%--<input name="" type="text"  style="background:#004173; border:1px #00559c solid; width:162px; height:20px;" />--%>
+                                                            <asp:TextBox ID="txtUsername" runat="server" TabIndex="1" 
+                                                                                                    ToolTip="Enter Your User Name" style="background:#004173; border:1px #00559c solid; width:162px; height:20px;"></asp:TextBox>
+                                                        </td>
+                                                        <td>
+                                                            <%--<input name="" type="text"  style="background:#004173; border:1px #00559c solid; width:162px; height:20px;" />--%>
+                                                            <asp:TextBox ID="txtPassword" runat="server" TabIndex="2" TextMode="Password" 
+                                                                                                    ToolTip="Enter your Password" style="background:#004173; border:1px #00559c solid; width:162px; height:20px;"></asp:TextBox>
+                                                        </td>
+                                                        <td>
+                                                            <asp:ImageButton ID="btnLogin" runat="server" onclick="btnLogin_Click" TabIndex="3" 
+                                                                                                    Text="Login" BackColor="White" src="images/submit.jpg" width="56" height="24" />
+                                                            <%--<a href="#">
+                                                            <img src="images/submit.jpg" width="56" height="24" alt="" /></a>--%></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="menubgcolor" align="center">
+                        <div align="center" >
+                            <asp:UpdatePanel ID="UpdatePanel5" runat="server">
+                                <ContentTemplate>
+                                    <table cellspacing="0" class="menustyle">
+                                        <tr>
+                                            <td >&nbsp;</td>
+                                            <td class="style2">
+                                                <div style="padding-left: 10px">
+                                                    <asp:LinkButton ID="lbtnHome1" runat="server" Font-Bold="False" 
+                                                    Font-Underline="False" ForeColor="Black" onclick="lbtnHome_Click">Home</asp:LinkButton>
+                                                </div>
+                                            </td>
+                                            <td class="style2">
+                                                <div style="padding-left: 10px">
+                                                    <asp:Panel ID="Panel1" runat="server" HorizontalAlign="Left" Width="65px">
+                                                        <asp:Menu ID="mnuAboutUs" runat="server" ForeColor="Black" 
+                                                        onmenuitemclick="mnuAboutUs_MenuItemClick" Orientation="Horizontal">
+                                                            <DynamicHoverStyle BackColor="#636E7C" />
+                                                            <DynamicMenuStyle Width="175px" />
+                                                            <DynamicMenuItemStyle BackColor="#8190A1" BorderColor="#999999" 
+                                                            BorderStyle="Outset" BorderWidth="1px" Font-Bold="False" ForeColor="Black" 
+                                                            HorizontalPadding="5px" Width="170px" />
+                                                            <Items>
+                                                                <asp:MenuItem Text="About Us" Value="AboutUs">
+                                                                    <asp:MenuItem Text="About Us" Value="AboutUS.ascx"></asp:MenuItem>
+                                                                    <asp:MenuItem Text="Our Vision" Value="OurVision.ascx"></asp:MenuItem>
+                                                                    <asp:MenuItem Text="Unique Stature" Value="Stature.ascx"></asp:MenuItem>
+                                                                    <asp:MenuItem Text="Our Values" Value="Values.ascx"></asp:MenuItem>
+                                                                </asp:MenuItem>
+                                                            </Items>
+                                                        </asp:Menu>
+                                                    </asp:Panel>
+                                                </div>
+                                            </td>
+                                            <td class="style2">
+                                                <div style="padding-left: 10px">
+                                                    <asp:Panel ID="Panel2" runat="server" HorizontalAlign="Left" Width="65px">
+                                                        <asp:Menu ID="mnuProducts" runat="server" ForeColor="Black" 
+                                                        onmenuitemclick="mnuProducts_MenuItemClick" Orientation="Horizontal">
+                                                            <DynamicHoverStyle BackColor="#636E7C" />
+                                                            <DynamicMenuStyle Width="175px" />
+                                                            <DynamicMenuItemStyle BackColor="#8190A1" BorderColor="#999999" 
+                                                            BorderStyle="Outset" BorderWidth="1px" Font-Bold="False" ForeColor="Black" 
+                                                            HorizontalPadding="5px" Width="170px" />
+                                                            <Items>
+                                                                <asp:MenuItem Text="Products" Value="Products">
+                                                                    <asp:MenuItem Text="TalentSCOUT" Value="TalentScout.ascx"></asp:MenuItem>
+                                                                    <asp:MenuItem Text="CODE-Informatics" Value="CodeInformatics.ascx"></asp:MenuItem>
+                                                                    <asp:MenuItem Text="Assesments" Value="Products.ascx"></asp:MenuItem>
+                                                                </asp:MenuItem>
+                                                            </Items>
+                                                        </asp:Menu>
+                                                    </asp:Panel>
+                                                </div>
+                                            </td>
+                                            <td class="style2">
+                                                <div style="padding-left: 10px">
+                                                    <asp:Panel ID="Panel3" runat="server" HorizontalAlign="Left">
+                                                        <asp:Menu ID="mnuServices" runat="server" ForeColor="Black" 
+                                                        onmenuitemclick="mnuServices_MenuItemClick" Orientation="Horizontal" 
+                                                        Width="65px">
+                                                            <DynamicHoverStyle BackColor="#636E7C" />
+                                                            <DynamicMenuItemStyle BackColor="#8190A1" BorderColor="#999999" 
+                                                            BorderStyle="Outset" BorderWidth="1px" Font-Bold="False" ForeColor="Black" 
+                                                            HorizontalPadding="5px" Width="170px" />
+                                                            <Items>
+                                                                <asp:MenuItem Text="Services" Value="Services">
+                                                                    <asp:MenuItem Text="Corporate HR Services" Value="Services_HR.ascx"></asp:MenuItem>
+                                                                    <asp:MenuItem Text="Assessment Services" Value="Services_Assesment.ascx"></asp:MenuItem>
+                                                                    <asp:MenuItem Text="Career Management Services" Value="Services_Career.ascx"></asp:MenuItem>
+                                                                    <asp:MenuItem Text="Psychometric Servies" Value="Services_Psychometric.ascx"></asp:MenuItem>
+                                                                </asp:MenuItem>
+                                                            </Items>
+                                                        </asp:Menu>
+                                                    </asp:Panel>
+                                                </div>
+                                            </td>
+                                            <td class="style2">
+                                                <div style="padding-left: 10px">
+                                                    <asp:LinkButton ID="lbtnTakeaTest" runat="server" Font-Underline="False" 
+                                                    ForeColor="Black" onclick="lbtnTakeaTest_Click">Take a Test</asp:LinkButton>
+                                                </div>
+                                            </td>
+                                            <td class="style2">
+                                                <div style="padding-left: 10px">
+                                                    <asp:LinkButton ID="lbtnInformationKit" runat="server" Font-Underline="False" 
+                                                    ForeColor="Black" onclick="lbtnInformationKit_Click">Info Kit</asp:LinkButton>
+                                                </div>
+                                            </td>
+                                            <td class="style2">
+                                                <div style="padding-left: 10px">
+                                                    <asp:LinkButton ID="lbtnContactUs" runat="server" Font-Underline="False" 
+                                                    ForeColor="Black" onclick="lbtnContactUs_Click">Contact Us</asp:LinkButton>
+                                                </div>
+                                            </td>
+                                            <td class="style2">
+                                                <div style="padding-left: 10px">
+                                                    <asp:LinkButton ID="lbtnLogout" runat="server" Font-Underline="False" 
+                                                    ForeColor="Black" onclick="lbtnLogout_Click" Visible="False">Logout</asp:LinkButton>
+                                                </div>
+                                            </td>
+                                            <td class="style2">
+                                                <input type="hidden" id="starttime" runat=server  value="0" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="text-align: center; padding-top: 25px;">
+                        <div align="center">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td valign="top" height="350" style="text-align: center" align="center">
+                                        <div style="padding-left: 20px; padding-right: 20px" align="left">
+                                            <asp:UpdatePanel ID="UpdatePanel4" runat="server">
+                                                <ContentTemplate>
+                                                    <asp:ContentPlaceHolder ID="cplhLoader" runat="server">
+                                                        <asp:Panel ID="pnlLogin" runat="server" BackColor="#FFFFCC" BorderStyle="Groove" 
+                                                        BorderWidth="15px" Height="300px" HorizontalAlign="Center" Visible="False" 
+                                                        Width="500px" BorderColor="#990000">
+                                                            <table>
+                                                                <tr>
+                                                                    <td align="left">
+                                                                        <div align="center" style="width: 500px; height: 300px">
+                                                                            <div style="width: 300px; height: 150px; padding-top: 15%;">
+                                                                                <table>
+                                                                                    <tr>
+                                                                                        <td background="images/client_login.gif"; style=" background-position: center; background-repeat: no-repeat; width: 306px; height: 35px; background-image: url('images/client_login.gif'); text-align: center;" 
+                                    valign="middle">
+                                                                                            <img src="images/spacer.gif" width="1" height="9"><img src="images/spacer.gif" align="absmiddle" width="19" height="1"><font class="titlesub3">Registered 
+        Users Login Here </font>
+                                                                                            <img src="images/arrow.gif" align="absmiddle" vspace="0" hspace="6" width="8" height="9">
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td >&nbsp;</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <table style="width:100%;">
+                                                                                                <tr>
+                                                                                                    <td>User Name&nbsp; </td>
+                                                                                                    <td><%--<asp:TextBox ID="txtUsername" runat="server" TabIndex="1" 
+                                                                                                    ToolTip="Enter Your User Name" Width="200px"></asp:TextBox>--%></td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td>Password&nbsp; </td>
+                                                                                                    <td><%--<asp:TextBox ID="txtPassword" runat="server" TabIndex="2" TextMode="Password" 
+                                                                                                    ToolTip="Enter your Password" Width="201px"></asp:TextBox>--%></td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td>&nbsp;</td>
+                                                                                                    <td style="text-align: center"><%--<asp:Button ID="btnLogin" runat="server" onclick="btnLogin_Click" TabIndex="3" 
+                                                                                                    Text="Login" BackColor="White" Width="75px" />--%></td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            <asp:Label ID="lblMessage_Login" runat="server" ForeColor="#FF3300"></asp:Label>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </table>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </asp:Panel>
+                                                    </asp:ContentPlaceHolder>
+                                                </ContentTemplate>
+                                            </asp:UpdatePanel>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="White" 
+                        
+                      <%--  style="border-top-style: ridge; border-top-width: 2px; border-top-color: #077DFB">
+                        <div class="bottomlink">
+                            <asp:LinkButton ID="lbtnPrivacyPolicy" runat="server" ForeColor="Blue" 
+                          onclick="lbtnPrivacyPolicy_Click">Privacy policy</asp:LinkButton>
+                            &nbsp;|
+                            <asp:LinkButton ID="lbtnTermsAndConditions" runat="server" ForeColor="Blue" 
+                          onclick="lbtnTermsAndConditions_Click">Terms &amp; Conditions</asp:LinkButton>
+                            &nbsp;|
+                            <asp:LinkButton ID="lbtnIPR" runat="server" ForeColor="Blue" 
+                          onclick="lbtnIPR_Click">IPR</asp:LinkButton>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="White" 
+                        
+                        style="border-bottom-style: ridge; border-bottom-width: 2px; border-bottom-color: #077DFB">
+                        <div class="allrights">
+                            © - All rights are 
+                        reserved by CareerJudge: Center for Career Profiling &amp; Development</div>--%>
+
+                        <div id="footer">
+                        <div class="footer_inn">
+                            <div class="footer_inn1">
+                                <div class="footer_inn1_head">
+                                    CONTACT US</div>
+                                <div class="footer_inn1_inner">
+                                    # G2 14 AR Court; Kaveri Nagar; RT Nagar PO<br/>Near Hebbal; Bangalore - 560 032<br/>Karnataka; India<br/>Phone: +91 80 4207 0394<br/>Contact Person: Dr. NC Joseph (PhD)<br/>Mobile: +91-99860-09643<br/>E-mail: ncjoseph@careerjudge.com
+                                </div>
+                            </div>
+                            <div class="footer_inn2">
+                                <div class="footer_inn2_head">
+                                    CODE-I HR Solutions</div>
+                                <div class="footer_inn2_inner">
+                                    <ul>
+                                        <li id="active"><a href="#">Job Analysis</a></li>
+                                        <li><a href="#">Job Description</a></li>
+                                        <li><a href="#">Competency Mapping</a></li>
+                                        <li><a href="#">Gap Analysis</a></li>
+                                        <li><a href="#">Benchmarking</a></li>
+                                        <li><a href="#">Performance Management</a></li>
+                                        <li><a href="#">Job Evaluation</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_inn2">
+                                <div class="footer_inn2_head">
+                                    Assessment Solutions</div>
+                                <div class="footer_inn2_inner">
+                                    <ul>
+                                        <li id="Li1"><a href="#">Customized Assessments</a></li>
+                                        <li><a href="#">Off-the-Shelf Assessments</a></li>
+                                        <li><a href="#">Psychometric Assessments</a></li>
+                                        <li><a href="#">Job-Specific Competency Tests</a></li>
+                                        <li><a href="#">Assesment centers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_inn2">
+                                <div class="footer_inn2_head">
+                                    Psychometric Services</div>
+                                <div class="footer_inn2_inner">
+                                    <ul>
+                                        <li id="Li2"><a href="#">Psychometric Analyses</a></li>
+                                        <li><a href="#">Test Calibration</a></li>
+                                        <li><a href="#">Test Validation, and Norm Setting</a></li>
+                                        <li><a href="#">Cut-Score Setting</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+</div>
+
+                        <div id="footer_bottom">
+                            <div class="footer_bottom_inn">
+                                © 2014 CareerJudge. All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designed & Developed by NOVASOFT</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div id="content">
+                <div align="right"  id="fixme" 
+        style="width:110px; " >
+                    <%--padding-top: 70px; padding-right: 25px;--%>
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
+                            <asp:Panel ID="pnltimer" runat="server" Visible="False">
+                                <table style="width: 105px;">
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="timerbg">
+                                            <asp:Label ID="lblTime" runat="server" Font-Bold="False">00:00:00</asp:Label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </asp:Panel>
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                </div>
+            </div>
+        </asp:ContentPlaceHolder>
+    </div>
+        
+    <p>
+        
+    <asp:Label ID="lblmessage" runat="server"></asp:Label>
+        
+    </p>
+        
+    <asp:Panel ID="pnlRedirect" runat="server" Visible="False">
+        <div 
+    style="width: 450px; height: 400px; top: 200px; left: 300px; padding-top: 100px;">
+            <table style="border: 6px inset #993366; width:100%; background-color: #666666;">
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div align="center" 
+                            
+                            style="color: #FFFFFF; font-weight: bold; font-family: Arial; font-size: 16px">
+                            If you exit, this test session will be terminated.
+                            <br />
+                            You will have to take the test again afresh when you login next time. Are you 
+                            sure you want to exit?</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div align="center">
+                            <asp:Button ID="btnYes" runat="server" onclick="btnYes_Click" Text="Yes" 
+                                Width="75px" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:Button ID="btnCancel" runat="server" onclick="btnCancel_Click" 
+                                Text="Cancel" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+            </table>
+        </div>
+    </asp:Panel>
+      
+        
+       <%-- <div id="content">
+
+
+<div id="fixme" style="border:2px solid #000;border-top:none;border-left:none;background-color:#fff;text-align:center;padding:10px;">
+F<br>i<br>x<br>&nbsp;<br>M<br>e
+</div>
+<!--<div id="fixmetoo" style="border:2px solid #000;border-bottom:none;border-right:none;background-color:#fff;text-align:center;padding:10px;">
+F<br>i<br>x<br>&nbsp;<br>M<br>e<br>&nbsp;<br>T<br>o<br>o
+</div>-->
+</div>--%>
+    </form>
+</body>
+</html>

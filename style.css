@@ -1,0 +1,706 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	margin:0px;
+	padding:0px;
+	font: 13px/23px Helvetica, Arial, sans-serif;
+-webkit-font-smoothing: antialiased;
+	background:#efefef;
+	color: #666666;
+}
+
+img
+
+{
+		border:none;
+}
+
+#main_box
+
+{
+		width:100%;
+		height:auto;
+		
+}
+
+#main_box_top
+
+{
+		width:100%;
+		height:4px;
+		background:#ffcf08;	
+}
+
+
+#main_box_header
+
+{
+		width:100%;
+		height:234px;
+		background:#00386b;	
+}
+
+.main_box_header_inner
+
+{
+		width:1000px;
+		height:234px;
+	margin:0 auto;	
+}
+
+.header_inner_head
+
+{
+		width:1000px;
+		height:176px;
+	float:left;	
+}
+
+.header_inner_head_inn
+
+{
+		width:590px;
+		height:176px;
+	float:left;	
+}
+.header_inner_head_inn_1
+
+{
+		width:410px;
+		height:176px;
+		float:left;	
+}
+
+.header_inner_head_inn_2
+
+{
+		width:290px;
+		height:51px;
+		float:left;
+		padding-top:58px;	
+		padding-left:120px;
+}
+
+.header_inner_head_inn_2_in
+
+{
+		width:290px;
+		height:51px;
+		float:left;
+		color:#8cb6d6;
+}
+.header_inner_head_inn_2_in a
+
+{
+		color:#8cb6d6;
+		text-decoration:none;
+}
+
+
+.header_inner_head_inn_3
+
+{
+		width:410px;
+		height:67px;
+		float:left;	
+}
+
+
+.header_menu
+
+{
+		width:1000px;
+		height:57px;
+	float:left;	
+	background:#004984;
+	border-top:1px #00559c solid;
+}
+
+
+.header_menu_inner
+
+{
+		width:760px;
+		height:57px;
+	float:left;	
+
+}
+
+.header_menu_inner_1
+
+{
+		width:240px;
+		height:57px;
+	float:left;	
+
+}
+
+.header_menu_icons
+
+{
+	width:180px;
+	height:15px;
+	float:left;	
+	margin-top:20px;
+	margin-left:60px;
+}
+
+.header_menu_icons_1{
+	width:15px;height:15px;float:left; background:url(../icons/fb.jpg);	
+	margin-right:15px;
+}
+.header_menu_icons_1:hover{
+	width:15px;height:15px;float:left; background:url(../icons/fb_h.jpg);	
+	margin-right:15px;
+}
+
+
+
+.header_menu_icons_2{
+	width:15px;height:15px;float:left; background:url(../icons/twitter.jpg);	
+	margin-right:15px;
+}
+.header_menu_icons_2:hover{
+	width:15px;height:15px;float:left; background:url(../icons/twitter_h.jpg);	
+	margin-right:15px;
+}
+
+.header_menu_icons_3{
+	width:15px;height:15px;float:left; background:url(../icons/0.jpg);	
+	margin-right:15px;
+}
+.header_menu_icons_3:hover{
+	width:15px;height:15px;float:left; background:url(../icons/0_h.jpg);	
+	margin-right:15px;
+}
+
+.header_menu_icons_4{
+	width:15px;height:15px;float:left; background:url(../icons/google.jpg);	
+	margin-right:15px;
+}
+.header_menu_icons_4:hover{
+	width:15px;height:15px;float:left; background:url(../icons/google_h.jpg);	
+	margin-right:15px;
+}
+
+
+.header_menu_icons_5{
+	width:15px;height:15px;float:left; background:url(../icons/rss.jpg);	
+	
+}
+.header_menu_icons_5:hover{
+	width:15px;height:15px;float:left; background:url(../icons/rss_h.jpg);	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+#main_box_bottom
+
+{
+		width:100%;
+		height:4px;
+		background:#d6d7d6;	
+}
+
+#main_box_middle
+
+{
+		width:1000px;
+		height:auto;
+		margin:0 auto;	
+		margin-top:30px;
+		
+}
+
+
+.main_box_left
+
+{
+		width:673px;
+		height:auto;
+		float:left;
+		margin-right:30px;
+		display:inline;
+		margin-bottom:30px;
+		
+
+}
+
+.left_animation
+
+{
+		width:653px;
+		height:356px;
+		float:left;
+		background:#FFF;
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:10px;
+		
+		
+}
+
+.left_text
+
+{
+		width:673px;
+		height:144px;
+		float:left;
+		background:#FFF;
+		margin-top:30px;
+}
+
+.left_text_head
+
+{
+		width:648px;
+		height:auto;
+		float:left;
+		font-family:"Aachen BT";
+		-webkit-font-smoothing: antialiased;
+		font-size:31px;
+		color:#ffcf08;
+		margin-top:30px;
+		padding-left:25px;
+
+}
+
+.left_text_head_2
+
+{
+		width:603px;
+		height:auto;
+		float:left;
+		font-family:"Aachen BT";
+		-webkit-font-smoothing: antialiased;
+		font-size:21px;
+		color:#ffcf08;
+		padding-left:70px;
+
+}
+
+
+.hd
+
+{
+		font-family:"Aachen BT";
+		-webkit-font-smoothing: antialiased;
+		font-size:14px;
+		color:#ffcf08;
+}
+
+
+
+
+.left_text_inner
+
+{
+		width:640px;
+		height:auto;
+		float:left;
+		color: #666666;
+		margin-top:12px;
+		padding-left:33px;
+}
+
+
+.left_text_2
+
+{
+		width:673px;
+		height:233px;
+		float:left;
+		background:#FFF;
+		margin-top:30px;
+}
+
+
+.main_box_right
+
+{
+		width:297px;
+		height:auto;
+		float:left;
+
+
+}
+
+.right_banner
+
+{
+		width:297px;
+		height:86px;
+		float:left;
+		background:#FFF;
+}
+
+.right_menu
+
+{
+		width:277px;
+		height:250px;
+		float:left;
+		margin-top:30px;
+		background:#FFF;
+		padding-left:20px;
+		
+}
+
+.right_menu_bg
+
+{
+		width:210px;
+		height:27px;
+		float:left;
+		margin-top:9px;
+		background:url(images/right_menu.jpg);
+		padding-left:47px;
+		font-family:"Albertus Medium";
+		font-size:15px;
+		color:#9c9a9c;
+		padding-top:4px;
+		
+}
+
+.right_menu_bg a
+
+{
+		text-decoration:none;
+		color:#9c9a9c;
+		display:block;
+	color: inherit;
+	outline: none;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;	
+}
+.right_menu_bg a:hover
+
+{
+		text-decoration:none;
+		color:#ffcf08;	
+}
+
+.right_menu_bg:hover
+
+{
+		width:210px;
+		height:27px;
+		float:left;
+		margin-top:9px;
+		background:url(images/right_menu_h.jpg);
+		padding-left:47px;
+		color:#ffcf08;
+		padding-top:4px;
+}
+
+.right_text
+
+{
+		width:267px;
+		height:379px;
+		float:left;
+		margin-top:30px;
+		background:#FFF;
+		padding:15px;
+		
+		
+}
+
+
+
+#footer
+
+{
+		width:100%;
+		height:auto;
+		background:#004984;
+		float:left;
+		border-top:3px #d6d7d6 solid;
+}
+
+
+.footer_inn
+
+{
+		width:1000px;
+		height:auto;
+		margin:0 auto;
+		margin-top:40px;
+
+}
+
+.footer_inn1
+
+{
+		width:270px;
+		height:auto;
+		float:left;
+
+}
+
+.footer_inn1_head
+
+{
+		width:270px;
+		height:auto;
+		float:left;
+		color:#FFF;
+		font-weight: 700;
+text-transform: uppercase;
+	padding-bottom:10px;
+font-size: 13px;
+
+}
+
+.footer_inn1_inner
+
+{
+		width:270px;
+		height:auto;
+		float:left;
+		color:#6b92ad;
+}
+
+
+
+.footer_inn2
+
+{
+		width:210px;
+		height:auto;
+		float:left;
+		margin-left:30px;
+
+}
+
+.footer_inn2_head
+
+{
+		width:210px;
+		height:auto;
+		float:left;
+		color:#FFF;
+		font-weight: 700;
+text-transform: uppercase;
+	padding-bottom:10px;
+font-size: 13px;
+
+}
+
+.footer_inn2_inner
+
+{
+		width:210px;
+		height:auto;
+		float:left;
+		color:#8cb6d6;
+}
+
+.footer_inn2_inner ul
+{
+    padding:0px;
+    margin:0px;
+    color:#8cb6d6;
+    list-style:square;
+	padding-left:10px;
+   
+}
+.footer_inn2_inner ul li
+{
+  
+    line-height:28px;
+        
+}
+.footer_inn2_inner ul li a
+{
+    text-decoration:none;
+    color:#8cb6d6;
+    display:block;
+	color: inherit;
+	outline: none;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.footer_inn2_inner ul li a:hover
+{
+    color:#ffcf08;
+}
+.footer_inn2_inner ul li#active
+{
+    color:#ffcf08;
+}
+
+
+
+
+#footer_bottom
+
+{
+		width:100%;
+		height:60px;
+		background:#004984;
+		float:left;
+		border-top:1px #00386b solid;
+}
+.footer_bottom_inn
+
+{
+		width:1000px;
+		height:auto;
+		margin:0 auto;
+		color:#6b92ad;
+		padding-top:20px;
+}
+
+
+/*.............................Take a Test Start...........................*/
+
+
+
+
+
+.take_a_test
+
+{
+		width:653px;
+		height:220px;
+		float:left;
+		background:#FFF;
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:10px;
+}
+
+
+
+.take_a_test_text
+
+{
+		width:673px;
+		height:auto;
+		float:left;
+		background:#FFF;
+		margin-top:30px;
+		padding-bottom:10px;
+}
+
+
+.take_a_test_right_menu
+
+{
+		width:277px;
+		height:auto;
+		float:left;
+		margin-top:30px;
+		background:#FFF;
+		padding-left:20px;
+		padding-bottom:10px;
+		
+}
+
+
+
+.take_a_test_right_menu_box
+
+{
+		width:210px;
+		height:auto;
+		float:left;
+			font-family:"Aachen BT";
+		-webkit-font-smoothing: antialiased;
+		font-size:19px;
+		color:#ffcf08;
+		padding-top:10px;
+		
+}
+
+
+.take_a_test_right_banner
+
+{
+		width:297px;
+		height:230px;
+		float:left;
+		background:#FFF;
+}
+
+
+.take_a_test_right_banner_inner
+
+{
+		width:277px;
+		height:auto;
+		float:left;
+		background:#FFF;
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:10px;
+		
+}
+
+a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+#magento-com .btn-outline {
+    font: normal 12px/36px 'OpenSansBold', sans-serif;
+	
+
+    color: #fff;
+    background: #004984;
+    border-radius: 2px;
+    padding: 0 14px;
+    text-shadow: none;
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 3px solid #fff;
+    box-shadow: inset 0 0 0 0 #fff;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+	
+}
+
+
+#magento-com .btn-outline:hover {
+    color: #31302b;
+    box-shadow: inset 0 100px 0 0 #ffcf08;
+    background: #ffcf08;
+}
+#magento-com .contact-us a.btn-outline:hover,
+#newsletter a.btn-outline:hover {
+    background: #ffcf08;
+    color: #31302b;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.............................Take a Test End...........................*/
